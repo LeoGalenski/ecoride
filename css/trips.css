@@ -1,0 +1,113 @@
+body {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+}
+/* Liste des véhicules : flex wrap et centré */
+.trips-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* Centrage horizontal */
+  align-items: flex-start;  /* Alignement en haut des cartes */
+  gap: 1.5rem;              /* Espace entre les cartes */
+  margin: 0;
+  padding: 0;
+}
+
+/* Carte de véhicule */
+.trips-card {
+  flex: 0 1 300px;          /* Largeur base 300px, peut rétrécir mais pas s'agrandir */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Centrage du contenu de la carte */
+  text-align: center;
+}
+
+/* Titre de la carte */
+.trips-card h2 {
+  margin: 0 0 1rem;
+  color: #2e7d32;
+  font-size: 1.25rem;
+}
+
+/* Liste des détails */
+.trips-card ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.trips-card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Bouton ou lien éventuel */
+.trips-card a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background: #43a047;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+/* Liste des véhicules : flex wrap et centré */
+.trips-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* Centrage horizontal */
+  align-items: flex-start;  /* Alignement en haut des cartes */
+  gap: 1.5rem;              /* Espace entre les cartes */
+  margin: 0;
+  padding: 0;
+}
+
+/* Carte de véhicule */
+.trips-card {
+  flex: 0 1 300px;          /* Largeur base 300px, peut rétrécir mais pas s'agrandir */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Centrage du contenu de la carte */
+  text-align: center;
+}
+
+/* Titre de la carte */
+.trips-card h2 {
+  margin: 0 0 1rem;
+  color: #2e7d32;
+  font-size: 1.25rem;
+}
+
+/* Liste des détails */
+.trips-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.trips-card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Bouton ou lien éventuel */
+.trips-card a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background: #43a047;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-block;
+}

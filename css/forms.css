@@ -1,0 +1,12 @@
+.create-trip-form, .create-vehicle-form, .edit-profile-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+

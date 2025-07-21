@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5FBEF;
+    color: #2E7D32;
+}
+header, footer {
+    background-color: #A3B18A;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    height: 75px;
+    width: 100%;
+    background-color: #A3B18A;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+nav ul li a {
+    color: #344E41;
+    text-decoration: none;
+}
+header ul {
+    display: flex;            /* Utilise Flexbox */
+    list-style-type: none;     /* Enlève les puces par défaut */
+    padding: 0;               /* Enlève le padding par défaut de <ul> */
+    margin: 0;                /* Enlève la marge par défaut de <ul> */
+}
