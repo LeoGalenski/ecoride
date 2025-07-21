@@ -34,7 +34,7 @@ Ce projet est une application de covoiturage "EcoRide" développée en PHP, MySQ
 
    - Dans phpMyAdmin, sélectionnez la base `ecoride_test`
    - Allez dans l’onglet **Importer**
-   - Choisissez le fichier `schema.sql` et cliquez sur **Exécuter**
+   - Choisissez le fichier `db/schema.sql` et cliquez sur **Exécuter**
 
 5. **Configurer la connexion à la base**
 
